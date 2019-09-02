@@ -38,5 +38,10 @@ public class Person {
             result.append("I am a woman and I am " + getAge() + " years old. ");
         }
         return result.toString();
+
+    }
+    public void introduction(){
+        System.out.println(" I am attendeing object oriented programing lab ");
     }
 }
+

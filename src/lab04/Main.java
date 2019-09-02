@@ -10,5 +10,6 @@ public class Main {
         char gender = scan.next().trim().charAt(0);
         Person myself = new Person(name,age,gender);
         System.out.println(myself.toString());
+
     }
 }
